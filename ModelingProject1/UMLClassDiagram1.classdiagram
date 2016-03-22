@@ -105,9 +105,6 @@
           </dependency>
         </suppliersInternal>
         <ownedAttributesInternal>
-          <property Id="27391ab5-9290-4c7e-a4ae-0f2c49ce274e" name="Perfil" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="cb5d68c3-26ad-4215-aaa1-55d1bd5be338" />
-          </property>
           <property Id="b18d25df-64e3-43ff-bc21-ad7ad228502b" name="Senha" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="9c88a253-e924-4795-b5b4-5b1ef8b888a5" />
           </property>
@@ -223,6 +220,22 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="9bb4eeac-6c45-48db-b756-04ab5f235c5b" />
+          </association>
+          <association Id="b22c41c9-2e0e-4586-ac55-a1590d651aab" isDerived="false" sourceEndRoleName="Ala" targetEndRoleName="Pessoas" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2629490b-e26a-45a1-aa9e-bb9a703cfe63" LastKnownName="Pessoas" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="87ee0f7a-dbb1-4378-a161-c399c6917aad" name="Ala" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="176480f2-0c49-42e4-a891-632cea8eaeb1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b651590f-71e1-4ed0-9175-6ccd8a06a8c2" name="Pessoas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="629131c8-93c1-4b9a-b0fe-4633d4f445da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cd12526c-8558-4593-90ca-14960aad1770" />
           </association>
         </targetEnds>
         <ownedAttributesInternal>

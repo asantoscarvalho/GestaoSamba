@@ -490,17 +490,6 @@
         </suppliersInternal>
         <ownedAttributesInternal>
           <property
-            Id="cb5d68c3-26ad-4215-aaa1-55d1bd5be338"
-            name="Perfil"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="9c88a253-e924-4795-b5b4-5b1ef8b888a5"
             name="Senha"
             isLeaf="false"
@@ -734,6 +723,45 @@
                       value="*" />
                   </upperValueInternal>
                 </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cd12526c-8558-4593-90ca-14960aad1770"
+            isDerived="false"
+            sourceEndRoleName="Ala"
+            targetEndRoleName="Pessoas"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="86b2b1bc-f67e-4084-8c04-7d873bd715cd"
+              LastKnownName="Pessoas"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="176480f2-0c49-42e4-a891-632cea8eaeb1"
+                  name="Ala"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="629131c8-93c1-4b9a-b0fe-4633d4f445da"
+                  name="Pessoas"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
